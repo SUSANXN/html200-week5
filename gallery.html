@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gallery</title>
+<link href="css/style1.css" type="text/css" rel="stylesheet" /> 
+
+<!--  media queries  -->
+<!-- <link href="css/tablet.css" type="text/css" rel="stylesheet"  media=" (min-width:501px) and (max-width:900px)" />
+<link href="css/mobile.css" type="text/css" rel="stylesheet"  media=" (min-width:1px) and (max-width:500px)"/> -->
+<script src="javascript/objects.js" type="text/javascript"> </script>
+
+<!-- make cross-device scaling of content standard, so as not to get "shrunken text" on mobile
+	And so we dont get content "cut off" in the mobile form factor
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+</head>
+<body> 
+<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"> </script> -->
+	
+<header>
+	<h1>Gallery</h1> 
+	</header>
+	<nav id="navigation" role="navigation">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sign-up.html">Sign Up</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+<div id="mainContent">
+	<h1>Gallery</h1>
+	<h2>Three Mediums</h2>
+	<div class="tab-panels">
+    	<ul class="tabs">
+        	<li rel="drawing" class="active">drawing </li>
+            <li rel="water-color" >watercolor</li>
+            <li rel="oil">oil</li>
+    	</ul>
+    	<div id="thumbs">
+	        <div id="drawing" class="panel"> 
+	        	<img src="images/drawing/thumbs/artwork_1.jpg" width="150" height="100" />
+	            <img src="images/drawing/thumbs/artwork_2.jpg" width="150" height="100"  />
+	            <img src="images/drawing/thumbs/artwork_3.jpg" width="150" height="100"  />
+	            <img src="images/drawing/thumbs/artwork_4.jpg" width="150" height="100"  />
+	            <img src="images/drawing/thumbs/artwork_5.jpg" width="150" height="100"  />
+	            <img src="images/drawing/thumbs/artwork_6.jpg" width="150" height="100"  />
+	            <img src="images/drawing/thumbs/artwork_7.jpg" width="150" height="100"  />
+	            <img src="images/drawing/thumbs/artwork_8.jpg" width="150" height="100"  />
+	            <img src="images/drawing/thumbs/artwork_9.jpg" width="150" height="100"  />
+	            <img src="images/drawing/thumbs/artwork_10.jpg" width="150" height="100"  />
+	        </div>
+	        
+	        <div id="water-color" class="panel active"> 
+	        	<img src="images/watercolor/thumbs/artwork_1.jpg" width="150" height="100" />
+	            <img src="images/watercolor/thumbs/artwork_2.jpg" width="150" height="100" />
+	            <img src="images/watercolor/thumbs/artwork_3.jpg" width="150" height="100" />
+	            <img src="images/watercolor/thumbs/artwork_4.jpg" width="150" height="100" />
+	            <img src="images/watercolor/thumbs/artwork_5.jpg" width="150" height="100" />
+	            <img src="images/watercolor/thumbs/artwork_6.jpg" width="150" height="100" />
+	            <img src="images/watercolor/thumbs/artwork_7.jpg" width="150" height="100" />
+	            <img src="images/watercolor/thumbs/artwork_8.jpg" width="150" height="100" />
+	            <img src="images/watercolor/thumbs/artwork_9.jpg" width="150" height="100" />
+	            <img src="images/watercolor/thumbs/artwork_10.jpg" width="150" height="100" />
+	        </div>
+	        
+	        <div id="oil" class="panel"> 
+	        	<img src="images/oil/thumbs/artwork_1.jpg" width="150" height="100"/>
+	            <img src="images/oil/thumbs/artwork_2.jpg" width="150" height="100" />
+	            <img src="images/oil/thumbs/artwork_4.jpg" width="150" height="100" />
+	            <img src="images/oil/thumbs/artwork_5.jpg" width="150" height="100" />
+	            <img src="images/oil/thumbs/artwork_6.jpg" width="150" height="100" />
+	            <img src="images/oil/thumbs/artwork_7.jpg" width="150" height="100" />
+	            <img src="images/oil/thumbs/artwork_8.jpg" width="150" height="100" />
+	        
+	        </div>
+    	</div><!-- closing thumbs div -->
+    </div><!--closing tab-panels -->
+
+</div><!-- closing primaryContent   -->
+
+<footer>
+	<p class="odd">
+		&copy; Copyright  by jason zeringue
+	</p>
+</footer>
+
+</body>
+</html>
